@@ -19,7 +19,7 @@ import configparser
 import markovify
 import raven
 import coloredlogs
-import strings
+from royalnet.utils import strings
 import time
 import requests
 IKMarkup = telegram.InlineKeyboardMarkup

@@ -1,7 +1,6 @@
 import random
 import math
-import typing
-import strings
+from royalnet.utils import strings
 import enum
 s = strings.safely_format_string
 

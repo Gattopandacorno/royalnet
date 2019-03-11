@@ -11,7 +11,7 @@ import telegram
 import sys
 import coloredlogs
 import requests
-import strings
+from royalnet.utils import strings
 from utils import Dirty, DirtyDelta, reply_msg
 
 logging.getLogger().disabled = True

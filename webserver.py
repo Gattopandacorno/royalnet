@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, abort, redirect, url_for, Markup, escape, jsonify
+from flask import Flask, render_template, request, abort, redirect, url_for, Markup, escape
 from flask import session as fl_session
 from flask import g as fl_g
 import db
@@ -11,7 +11,7 @@ import telegram
 import sql_queries
 import re
 import functools
-import strings
+from royalnet.utils import strings
 from sqlalchemy.orm.collections import InstrumentedList
 from raven.contrib.flask import Sentry
 from utils import reply_msg

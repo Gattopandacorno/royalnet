@@ -1,7 +1,7 @@
 import telegram
 import configparser
 import db
-import strings
+from royalnet.utils import strings
 
 config = configparser.ConfigParser()
 config.read("config.ini")

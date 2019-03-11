@@ -22,7 +22,8 @@ from flask import escape
 import configparser
 import typing
 from utils import MatchmakingStatus, errors
-import strings
+from royalnet.utils import strings
+
 if typing.TYPE_CHECKING:
     # noinspection PyPackageRequirements
     from discord import User as DiscordUser
